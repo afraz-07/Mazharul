@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&display=swap');
 
-*{
-
-    margin: 0;
-    padding: 0;
-    
-}
 
 
 
@@ -35,12 +29,6 @@ footer
     color: rgb(105, 27, 27);
 }
 
-.list{
-padding-left: 2rem;
-padding-right: 2rem;
-
-
-}
 
 .header {
     margin:0;
@@ -64,5 +52,14 @@ padding-right: 2rem;
 }
 
 .img{
-    padding:2rem 24rem 2rem 24rem;
+    padding:0.5rem 24rem 0.5rem 24rem;
+}
+.img img{
+    width: 500px;
+    height:300px;
+}
+
+.sub{
+padding: 0rem 0rem 0rem 1rem;
+
 }
