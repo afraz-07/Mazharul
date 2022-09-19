@@ -9,57 +9,92 @@ body
 }
 h1
 {
-    padding-left: 24rem;
+    text-align: center;
     color: #1A4D2E;
+    margin: 0.5rem;
+}
+
+.list2{
+    padding: 0.3rem;
 }
 
 h2
 {
+
     color: #0F3D3E;
+    padding-left:0.3rem;
 }
 
 h3{
     color: rgb(50, 50, 129);
-    padding: 0;
-}
-
-footer
-
-{
-    color: rgb(105, 27, 27);
-}
-
-
-.header {
-    margin:0;
-    padding:0;
- 
-
+  
 }
 
 .header2{
-    padding-left: 35rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    text-align: center;
 }
 
 .header3{
-    padding-left:32rem;  
+    margin-top: 0%;
+    margin-bottom: 0.3rem;
+  text-align: center;
 }
 
 .para{
-    padding-left: 28rem;
+    text-align: center;
 }
 
-.img{
-    padding:0.5rem 24rem 0.5rem 24rem;
+img{
+ 
+    
+    display: block;
+    margin: auto;
+    width: 450px;
+    height:280px;
+    
 }
-.img img{
-    width: 500px;
-    height:300px;
-}
+
 
 .sub{
 padding: 0rem 0rem 0rem 1rem;
 
+}
+
+.foot{
+padding: 1rem 1rem 1rem 1rem;
+
+}
+
+.footerline{
+
+    padding: 0.5rem 0.5rem;
+
+}
+.footerline i{
+    padding-right: 1rem;
+}
+.footerline a{
+    color: aqua;
+}
+
+footer{
+ background-color: black;
+ color: white;
+ padding: 4rem 2rem 4rem 2rem;
+
+}
+
+.contact h2{
+
+    text-align: center;
+    color:gray;
+
+}
+
+h4{
+    padding-left: 0.5rem;
+}
+
+link{
+    color: white;
 }
