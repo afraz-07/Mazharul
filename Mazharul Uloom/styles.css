@@ -3,98 +3,167 @@
 
 
 
-body
-{
+body {
     font-family: 'Josefin Sans', sans-serif;
 }
-h1
-{
+
+h1 {
     text-align: center;
     color: #1A4D2E;
     margin: 0.5rem;
 }
 
-.list2{
+.list2 {
     padding: 0.3rem;
 }
 
-h2
-{
+h2 {
 
     color: #0F3D3E;
-    padding-left:0.3rem;
+    padding-left: 0.3rem;
 }
 
-h3{
+h3 {
     color: rgb(50, 50, 129);
-  
+
 }
 
-.header2{
+.header2 {
     text-align: center;
 }
 
-.header3{
+.header3 {
     margin-top: 0%;
     margin-bottom: 0.3rem;
-  text-align: center;
-}
-
-.para{
     text-align: center;
 }
 
-img{
- 
-    
+.para {
+    text-align: center;
+}
+
+img2 {
+
+
     display: block;
     margin: auto;
     width: 450px;
-    height:280px;
-    
-}
-
-
-.sub{
-padding: 0rem 0rem 0rem 1rem;
+    height: 280px;
 
 }
 
-.foot{
-padding: 1rem 1rem 1rem 1rem;
+
+.sub {
+    padding: 0rem 0rem 0rem 1rem;
 
 }
 
-.footerline{
+.foot {
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+.footerline {
 
     padding: 0.5rem 0.5rem;
 
 }
-.footerline i{
-    padding-right: 1rem;
+
+.footerline i {
+    padding-right: 0.5rem;
 }
-.footerline a{
+
+.footerline a {
     color: aqua;
 }
 
-footer{
- background-color: black;
- color: white;
- padding: 4rem 2rem 4rem 2rem;
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem 2rem 2rem;
+    border-radius: 1rem;
 
 }
+/* .contact{
+   padding-bottom: rem;
+} */
 
-.contact h2{
 
+
+.contact h2 {
+    
     text-align: center;
-    color:gray;
+    color: gray;
+ 
 
 }
 
-h4{
+h4 {
     padding-left: 0.5rem;
 }
 
-link{
+link {
     color: white;
+}
+
+.footer-inline {
+
+    text-align: center;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    padding: 1rem 4rem 1rem 1rem;
+    border-radius: 1rem;
+    
+
+
+}
+.list-non-bullet{
+display: flex;
+justify-content: end;
+gap: 50px;
+}
+
+.list-non-bullet .links{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+   
+    
+}
+.list-item a{
+    background-color: black;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border: 1px solid white;
+
+}
+/* 
+#main{
+display: flex;
+justify-content: space-between ;
+width: 300px;
+height: 150px;
+
+} */
+
+.logo img{
+    width: 10%;
+    height: 15%;
+   
+    
+ 
+    
+
+}
+.navigation-container{
+    display: flex;
 }
