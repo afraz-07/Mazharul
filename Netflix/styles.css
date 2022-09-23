@@ -1,0 +1,10 @@
+img{
+    height: 90px;
+    width: 157px;
+    padding-left: 1rem;
+    padding-top: 0rem;
+}
+
+.bg{
+    background-image: url(/bgimage.png);
+}
