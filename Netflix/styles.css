@@ -9,6 +9,18 @@ body{
 }
 
 
+.bg{
+    background-image: url(/net\ bg.jpeg);
+
+    background-size: 100%;
+
+    border-bottom: 8px;
+    border-color: white;
+   
+   
+}
+
+
 img{
     height: 93px;
     width: 157px;
@@ -36,9 +48,20 @@ img{
 }
 
 .searchbar:hover{
+    background-color: transparent;
+   
+   }
+
+.searchbar option{
     background-color: gray;
-    text-align: center;
-    cursor: pointer;
+   
+  
+
+}
+
+.opt option{
+   text-align: center;
+   align-items: center;
 }
 
 
@@ -60,17 +83,8 @@ button:hover{
     cursor: pointer;
 }
 
-   /* transform: translate(30px,7px); */
  
-
-
-
-
-.navi{
-    display: flex;
-}
-
-.ss{
+ .ss{
     width: 82%;
     text-align: right;
     justify-content: space-around;
@@ -84,63 +98,57 @@ button:hover{
     transform: translate(5px,26px);
 }
 
-.bg{
-    background-image: url(/bgimage.png);
-    background-size: 100%;
-   
+
+
+
+
+.head{
+    transform: translateY(20px);
+    color: white;
+    font-size: 48px;
+    text-align: center;
 }
 
+.heads{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+
 .words{
+    color: white;
+    text-align: center; 
+    margin: 10px;
     padding-bottom: 15px;
     padding-top: 7rem;
 }
 
-h1{
-    color: white;
-    font-size: 48px;
-    text-align: center;
-    
-    
-  
-  
-}
-
-/* .bod{
-    transform: translateY(20px);
-} */
-
-h2{
-    color: white;
-    text-align: center;
-}
-
-h4{
-    color: white;
-    text-align: center; 
-    margin: 10px;
-}
-
 .search{
-    /* width: 85%; */
-    text-align: center;
-    /* margin-left: 378px; */
+   
     height: 290px;
+   
    
     
 }
 .search input{
-    height: 50px;
+    height: 55px;
     width: 400px;
+    text-align:left;
+    padding-left: 12px;
+    font-size: larger;
+    outline: none;
 }
 
 
 .button2 button{
-    height: 56px;
+    height: 62px;
     width: 200px;
     border-color: rgb(201, 22, 22);
     background-color: #c91616;
     color: white;
-    font-size: larger;
+    font-size: x-large;
    
     
 }
@@ -150,3 +158,73 @@ h4{
     justify-content:center;
     
 }
+
+/* section */
+
+.sec1{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+   border-top: 8px solid rgb(73, 72, 72);
+height: 500px;
+
+}
+
+.consec1{
+    color: white;
+    width: 40%;
+    padding-top: 150px;
+  
+    
+}
+
+.sec1 .consec1 .sh1{
+    font-size: 47px;
+}
+
+.consec2 img{
+    height: 410px;
+    width: 540px;
+    padding-top: 10px;
+ 
+}
+
+.consec2{
+    padding-left: 2rem;
+}
+
+
+
+/* section2 */
+
+
+
+.sec2{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+   border-top: 8px solid rgb(73, 72, 72);
+height: 500px;
+}
+
+.con-sec2 img{
+    height: 370px;
+    width: 510px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 180px;
+}
+
+.con2-sec2{
+    color: white;
+    width: 40%;
+    padding-top: 150px;
+
+}
+
+.sec2 .con2-sec2 .sh2{
+    font-size: 47px;
+
+}
+
+
