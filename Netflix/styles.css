@@ -208,11 +208,12 @@ height: 500px;
 }
 
 .con-sec2 img{
-    height: 370px;
+    height: 390px;
     width: 510px;
     padding-top: 40px;
     padding-left: 40px;
-    padding-right: 180px;
+    /* padding-right: 180px; */
+    transform: translateX(-100px);
 }
 
 .con2-sec2{
@@ -226,5 +227,44 @@ height: 500px;
     font-size: 47px;
 
 }
+
+
+.stranger .stra img{
+    width: 55px;
+    height: 75px;
+    transform: translate(-23px,-54px);
+
+}
+
+.stranger{
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+    border: 2px solid rgb(73, 72, 72);
+    width: 320px;
+    height: 70px;
+    background-color: black;
+    border-radius: 13px;
+    transform: translate(33px,-133px);
+    padding-top: 24px;}
+
+.blue{
+    color: rgb(76, 144, 247);
+    font-size: small;
+}
+
+.download-icon{
+    transform: translate(30px,8px);
+}
+
+
+
+
+.sec3-con1{
+    color: white;
+    width: 40%;
+    padding-top: 150px;
+}
+
 
 
