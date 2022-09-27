@@ -180,6 +180,7 @@ height: 500px;
 
 .sec1 .consec1 .sh1{
     font-size: 47px;
+    padding-bottom: 10px;
 }
 
 .consec2 img{
@@ -225,6 +226,9 @@ height: 500px;
 
 .sec2 .con2-sec2 .sh2{
     font-size: 47px;
+    padding-bottom: 10px;
+    margin: 0;
+    row-gap: 0;
 
 }
 
@@ -265,6 +269,114 @@ height: 500px;
     width: 40%;
     padding-top: 150px;
 }
+
+.sec3-con2 img{
+    height: 410px;
+    width: 540px;
+    padding-top: 50px;
+}
+
+.sec3{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+   border-top: 8px solid rgb(73, 72, 72);
+height: 500px;
+
+}
+
+.sec3 .sec3-con1 .sh3{
+    font-size: 47px;
+    padding-bottom: 10px;
+
+}
+
+
+
+.sec4-con1 img{
+    height: 410px;
+    width: 540px;
+    padding-top: 50px;
+    padding-right: 30px;
+
+}
+
+.sec4-con2{
+    color: white;
+    width: 40%;
+    padding-top: 150px;
+
+}
+
+.sec4 .sec4-con2 .sh4{
+    font-size: 47px;
+    padding-bottom: 10px;
+
+}
+
+.sec4{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+   border-top: 8px solid rgb(73, 72, 72);
+height: 500px;
+
+}
+
+
+/* buttons */
+
+
+.sec5{
+    background-color: black;
+    border-top: 8px solid rgb(73, 72, 72);
+    height: 1000px;
+}
+
+.sec5-con1{
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.sec5 .sec5-con1 .sh5{
+    font-size: 47px;
+
+}
+
+.sec5-buttons .bl {
+    list-style: none;
+   
+    
+}
+
+.sec5-buttons{
+    text-align: center;
+    
+}
+
+.sec5-buttons .bl .b1{
+    height: 80px;
+    width: 65%;
+    color: white;
+    background-color:  rgb(73, 72, 72);
+    border-bottom: 8px solid black;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 26px;
+    
+}
+
+.head4{
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 18px;
+}
+
+
+
 
 
 
