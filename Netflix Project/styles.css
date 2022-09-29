@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.bg{
+    background-image: url(/net\ bg.jpeg);
+
+    background-size: 100%;
+
+    border-bottom: 8px;
+    border-color: white;
+   
+   
+}
+
+
+img{
+    height: 93px;
+    width: 157px;
+    padding-left: 2rem;
+    padding-top: 0rem;
+    transform: translateY(-4px)
+}
+
+.navi{
+    display: flex;
+}
+
+.searchbar{
+    height: 38px;
+    width: 90px;
+    border-color: white;
+    border-radius: 3px;
+    text-align: right;
+    background-color: transparent;
+    font-weight: bolder;
+    color: white;
+    /* transform: translateY(23px); */
+    transform: translate(-20px,23px);
+    outline: none;
+}
+
+.searchbar:hover{
+    background-color: transparent;
+   
+   }
+
+.searchbar option{
+    background-color: gray;
+   
+  
+
+}
+
+.opt option{
+   text-align: center;
+   align-items: center;
+}
+
+
+
+.button1{
+    height: 38px;
+    width: 90px;
+    border-radius: 3px;
+    border-color: rgb(201, 22, 22);
+    text-align: center;
+    background-color: #c91616;
+    color: white;
+    transform: translateY(23px);
+    outline: none;
+    font-size: 17px;
+
+}
+button:hover{
+    cursor: pointer;
+}
+
+ 
+ .ss{
+    width: 82%;
+    text-align: right;
+    justify-content: space-around;
+    gap: 10rem;
+    
+}
+
+.ss img{
+    height: 1rem;
+    width: 1rem;
+    transform: translate(5px,26px);
+}
+
+
+
+
+
+.head{
+    transform: translateY(20px);
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+.heads{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+
+.words{
+    color: white;
+    text-align: center; 
+    margin: 10px;
+    padding-bottom: 15px;
+    padding-top: 7rem;
+}
+
+.search{
+   
+    height: 290px;
+   
+   
+    
+}
+.search input{
+    height: 55px;
+    width: 400px;
+    text-align:left;
+    padding-left: 12px;
+    font-size: larger;
+    outline: none;
+}
+
+
+.button2 button{
+    height: 62px;
+    width: 200px;
+    border-color: rgb(201, 22, 22);
+    background-color: #c91616;
+    color: white;
+    font-size: x-large;
+   
+    
+}
+
+.search-button{
+    display: flex;
+    justify-content:center;
+    
+}
+
+/* section */
+
+.sec1{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+   border-top: 8px solid rgb(73, 72, 72);
+height: 500px;
+
+}
+
+.consec1{
+    color: white;
+    width: 40%;
+    padding-top: 150px;
+  
+    
+}
+
+.sec1 .consec1 .sh1{
+    font-size: 47px;
+    padding-bottom: 10px;
+}
+
+.consec2 img{
+    height: 410px;
+    width: 540px;
+    padding-top: 10px;
+ 
+}
+
+.consec2{
+    padding-left: 2rem;
+}
+
+
+
+/* section2 */
+
+
+
+.sec2{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+   border-top: 8px solid rgb(73, 72, 72);
+height: 500px;
+}
+
+.con-sec2 img{
+    height: 390px;
+    width: 510px;
+    padding-top: 40px;
+    padding-left: 40px;
+    /* padding-right: 180px; */
+    transform: translateX(-100px);
+}
+
+.con2-sec2{
+    color: white;
+    width: 40%;
+    padding-top: 150px;
+
+}
+
+.sec2 .con2-sec2 .sh2{
+    font-size: 47px;
+    padding-bottom: 10px;
+    margin: 0;
+    row-gap: 0;
+
+}
+
+
+.stranger .stra img{
+    width: 55px;
+    height: 75px;
+    transform: translate(-23px,-54px);
+
+}
+
+.stranger{
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+    border: 2px solid rgb(73, 72, 72);
+    width: 320px;
+    height: 70px;
+    background-color: black;
+    border-radius: 13px;
+    transform: translate(33px,-133px);
+    padding-top: 24px;}
+
+.blue{
+    color: rgb(76, 144, 247);
+    font-size: small;
+}
+
+.download-icon{
+    transform: translate(30px,8px);
+}
+
+
+
+
+.sec3-con1{
+    color: white;
+    width: 40%;
+    padding-top: 150px;
+}
+
+.sec3-con2 img{
+    height: 410px;
+    width: 540px;
+    padding-top: 50px;
+}
+
+.sec3{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+   border-top: 8px solid rgb(73, 72, 72);
+height: 500px;
+
+}
+
+.sec3 .sec3-con1 .sh3{
+    font-size: 47px;
+    padding-bottom: 10px;
+
+}
+
+
+
+.sec4-con1 img{
+    height: 410px;
+    width: 540px;
+    padding-top: 50px;
+    padding-right: 30px;
+
+}
+
+.sec4-con2{
+    color: white;
+    width: 40%;
+    padding-top: 150px;
+
+}
+
+.sec4 .sec4-con2 .sh4{
+    font-size: 47px;
+    padding-bottom: 10px;
+
+}
+
+.sec4{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+   border-top: 8px solid rgb(73, 72, 72);
+height: 500px;
+
+}
+
+
+/* buttons */
+
+
+.sec5{
+    background-color: black;
+    border-top: 8px solid rgb(73, 72, 72);
+    height: 930px;
+}
+
+.sec5-con1{
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.sec5 .sec5-con1 .sh5{
+    font-size: 47px;
+
+}
+
+.sec5-buttons .bl {
+    list-style: none;
+   
+    
+}
+
+.sec5-buttons{
+    text-align: center;
+    
+}
+
+.sec5-buttons .bl .b1{
+    height: 80px;
+    width: 65%;
+    color: white;
+    background-color:  rgb(73, 72, 72);
+    border-bottom: 8px solid black;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 26px;
+    
+}
+
+.head4{
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 18px;
+}
+
+.sec5-buttons .bl .b1 .but1 i{
+    transform: translateX(570px);
+}
+    
+.sec5-buttons .bl .b1 .but2 i{
+    transform: translateX(415px);
+}
+
+.sec5-buttons .bl .b1 .but3 i{
+    transform: translateX(521px);
+}
+
+.sec5-buttons .bl .b1 .but4 i{
+    transform: translateX(552px);
+}
+
+.sec5-buttons .bl .b1 .but5 i{
+    transform: translateX(420px);
+}
+
+.sec5-buttons .bl .b1 .but6 i{
+    transform: translateX(480px);
+}
+
+footer{
+    border-top: 8px solid rgb(73, 72, 72);
+    color:   rgb(73, 72, 72);
+    background-color: black;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footerlist{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footerlist .fl1{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.footerlist .fl2{
+    list-style: none;
+}
+
+
+.footerlist .fl3{
+    list-style: none;
+}
+
+
+.footerlist .fl4{
+    list-style: none;
+}
