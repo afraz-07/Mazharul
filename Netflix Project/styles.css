@@ -375,59 +375,113 @@ height: 500px;
     padding-bottom: 18px;
 }
 
-.sec5-buttons .bl .b1 .but1 i{
-    transform: translateX(570px);
-}
-    
-.sec5-buttons .bl .b1 .but2 i{
-    transform: translateX(415px);
-}
-
-.sec5-buttons .bl .b1 .but3 i{
-    transform: translateX(521px);
-}
-
-.sec5-buttons .bl .b1 .but4 i{
-    transform: translateX(552px);
-}
-
-.sec5-buttons .bl .b1 .but5 i{
-    transform: translateX(420px);
-}
-
-.sec5-buttons .bl .b1 .but6 i{
-    transform: translateX(480px);
-}
 
 footer{
     border-top: 8px solid rgb(73, 72, 72);
-    color:   rgb(73, 72, 72);
+    color:   rgb(128, 126, 126);
     background-color: black;
-    font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Nunito Sans', sans-serif;
+    padding-bottom: 30px;
+}
+
+.ques {
+  padding-left: 210px;
+  padding-top: 70px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 17px;
+}
+
+.ques a{
+    color:  rgb(128, 126, 126);
+    text-decoration: none;
 }
 
 .footerlist{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 80px;
+    transform: translateX(-90px);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.footerlist .fl1{
+.footerlist .fl1 li{
     list-style: none;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    
 }
 
-.footerlist .fl2{
+.footerlist .fl1 li a{
+    text-decoration: none;
+    color:  rgb(128, 126, 126);
+}
+
+.footerlist .fl2 li{
     list-style: none;
+    padding-bottom: 15px;
+}
+
+.footerlist .fl2 li a{
+    text-decoration: none;
+    color:  rgb(128, 126, 126);
 }
 
 
-.footerlist .fl3{
+.footerlist .fl3 li{
     list-style: none;
+    padding-bottom: 15px;
 }
 
+.footerlist .fl3 li a{
+    text-decoration: none;
+    color:  rgb(128, 126, 126);
+}
 
-.footerlist .fl4{
+.footerlist .fl4 li{
     list-style: none;
+    padding-bottom: 15px;
+}
+
+.footerlist .fl4 li a{
+    text-decoration: none;
+    color:  rgb(128, 126, 126);
+}
+
+.footerselect img{
+    height: 1.2rem;
+    width: 1.2rem;
+    transform: translate(-6px,26px);
+
+}
+
+.footerselect{
+  padding-left: 195px;
+}
+
+.footerselection{
+    height: 55px;
+    width: 140px;
+    border: 1px solid  rgb(128, 126, 126);
+    /* border-color:  rgb(128, 126, 126); */
+    border-radius: 3px;
+    text-align: center;
+    background-color: transparent;
+    color:   rgb(128, 126, 126);
+    transform: translate(-40px,23px);
+    /* outline: none; */
+    font-size: 17px;
+  
+}
+
+.footerselection option{
+    background-color: black;
+   outline: none;
+   
+}
+
+.ni{
+    padding-top: 50px;
+    padding-left: 210px;
 }
