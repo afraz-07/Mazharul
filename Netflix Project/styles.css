@@ -330,7 +330,7 @@ height: 500px;
 .sec5{
     background-color: black;
     border-top: 8px solid rgb(73, 72, 72);
-    height: 930px;
+    /* height: 930px; */
 }
 
 .sec5-con1{
@@ -347,26 +347,216 @@ height: 500px;
 
 .sec5-buttons .bl {
     list-style: none;
-   
+    text-align: center;
+    
     
 }
+
+
 
 .sec5-buttons{
     text-align: center;
+   
+}
+
+.bl .no1{
+    padding-bottom: 6px;
+    padding-left: 235px;
     
 }
 
+.bl .no2{
+    padding-bottom: 6px;
+    padding-left: 235px;
+}
+
+.bl .no3{
+    padding-bottom: 6px;
+    padding-left: 235px;
+}
+
+.bl .no4{
+    padding-bottom: 6px;
+    padding-left: 235px;
+}
+
+.bl .no5{
+    padding-bottom: 6px;
+    padding-left: 235px;
+}
+
+.bl .no6{
+    padding-bottom: 6px;
+    padding-left: 235px;
+}
+
+
 .sec5-buttons .bl .b1{
-    height: 80px;
-    width: 65%;
+    height: 70px;
+    width: 75%;
+    color: white;
+    background-color:  rgb(75, 72, 72);
+    text-align: left;
+    /* padding-top: 20px; */
+    padding-left: 30px;
+    font-size: 26px;
+ 
+
+}
+
+.but1{
+    padding-top: 18px;
+}
+
+.but2{
+    padding-top: 18px;
+}
+
+.but3{
+    padding-top: 18px;
+}
+
+.but4{
+    padding-top: 18px;
+}
+
+.but5{
+    padding-top: 18px;
+}
+
+.but6{
+    padding-top: 18px;
+}
+
+
+.sec5-buttons .bl .b2{
+    height: 70px;
+    width: 75%;
     color: white;
     background-color:  rgb(73, 72, 72);
-    border-bottom: 8px solid black;
     text-align: left;
     padding-left: 30px;
     font-size: 26px;
-    
 }
+
+
+.sec5-buttons .bl .b3{
+    height: 70px;
+    width: 75%;
+    color: white;
+    background-color:  rgb(73, 72, 72);
+    text-align: left;
+    padding-left: 30px;
+    font-size: 26px;
+}
+
+
+.sec5-buttons .bl .b4{
+    height: 70px;
+    width: 75%;
+    color: white;
+    background-color:  rgb(73, 72, 72);
+    text-align: left;
+    padding-left: 30px;
+    font-size: 26px;
+}
+
+
+.sec5-buttons .bl .b5{
+    height: 70px;
+    width: 75%;
+    color: white;
+    background-color:  rgb(73, 72, 72);
+    text-align: left;
+    padding-left: 30px;
+    font-size: 26px;
+}
+
+
+.sec5-buttons .bl .b6{
+    height: 70px;
+    width: 75%;
+    color: white;
+    background-color:  rgb(73, 72, 72);
+    text-align: left;
+    padding-left: 30px;
+    font-size: 26px;
+}
+
+
+.but1{
+    padding-top: 18px;
+}
+
+.but2{
+    padding-top: 18px;
+}
+
+.but3{
+    padding-top: 18px;
+}
+
+.but4{
+    padding-top: 18px;
+}
+
+.but5{
+    padding-top: 18px;
+}
+
+.but6{
+    padding-top: 18px;
+}
+
+
+
+.ic{
+    padding-top: 8px;
+    padding-right: 20px;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.b1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b2{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+/* <i class="fa fa-arrow-circle-down fa-2x" aria-hidden="true"></i> */
+
+.b3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b6{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.sec6{
+    background-color: black;
+}
+
 
 .head4{
     color: white;
@@ -375,6 +565,42 @@ height: 500px;
     padding-bottom: 18px;
 }
 
+.sec6{
+    height: 250px;
+}
+
+.search2{
+   
+    height: 150px;
+   
+   
+    
+}
+.search2 input{
+    height: 55px;
+    width: 400px;
+    text-align:left;
+    padding-left: 12px;
+    font-size: larger;
+    outline: none;
+}
+
+
+.search-button2{
+    display: flex;
+    justify-content:center;
+    
+}
+
+
+.button3 button{
+    height: 62px;
+    width: 200px;
+    border-color: rgb(201, 22, 22);
+    background-color: #c91616;
+    color: white;
+    font-size: x-large;
+}
 
 footer{
     border-top: 8px solid rgb(73, 72, 72);
